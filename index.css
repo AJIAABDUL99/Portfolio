@@ -50,8 +50,8 @@ ul li {
     margin-bottom: 10px;
 }
 
-#about, #education, #experience, #skills, #contact {
-    background-color: #fff;
+#about, #education, #experience, #skills, #contact #Companies and Organizations that I have worked for{
+    background-color: whitesmoke;
 }
 
 .social-links {
