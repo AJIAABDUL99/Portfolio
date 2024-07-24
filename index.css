@@ -185,3 +185,32 @@ footer {
   
   /* Add styling for individual projects within .community-projects class */
   
+  @media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    section {
+        padding: 10px 0;
+    }
+}
